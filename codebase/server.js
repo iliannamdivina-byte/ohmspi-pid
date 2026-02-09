@@ -18,7 +18,7 @@ const mqttClient = mqtt.connect("mqtt://localhost:1883"); //may need to be adjus
 //connection to the database
 const con = new Client({
   host: "localhost",
-  username: "admin",
+  username: "bulsu",
   port: 5432,
   password: "1234567890...",
   database: "pidData",
