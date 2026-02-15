@@ -110,6 +110,10 @@ void loop() {
     float output = Kp * error + Ki * integral + Kd * derivative;
     previous_error = error;
 
+    //convert roll from float to integer: truncation, round
+    
+    roll = map(roll, 50, -50, 0, 120); //Change first two numbers to old low/high points, change last two numbers to new low/high points
+
     // --- ANALYTICS LOGIC ---
     if (!systemStarted && abs(error) > 2) { systemStarted = true; startTime = millis(); }
     if (systemStarted) {
