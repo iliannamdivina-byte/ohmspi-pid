@@ -5,9 +5,9 @@
 #include <math.h>
 
 // --- SETTINGS ---
-const char* ssid     = "Converge 4G (HUAWEI-2.4G-3Rhm)"; // common ssid network 2.4GHz
-const char* password = "Tan0ngM0KayTatay..."; // password
-const char* mqtt_server = "raspberrypi.local"; // ipconfig ng pc
+const char* ssid     = "13kooo"; // common ssid network 2.4GHz
+const char* password = "cod_draser2"; // password
+const char* mqtt_server = "10.42.0.1"; // ipconfig ng pc
 const int mqtt_port    = 1883;
 #define MPU_ADDR 0x68
 #define IN1 26
